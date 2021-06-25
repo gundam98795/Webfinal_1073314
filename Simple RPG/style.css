@@ -1,0 +1,25 @@
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: center;
+}
+
+canvas{
+    border: 2px solid black;
+    background-image: url(images/grasses68.gif);
+}
+
+#myCanvas{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#talkBox{
+    height: 20px;
+    color: brown;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}

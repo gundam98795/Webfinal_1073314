@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Youtube player</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    
+    <script src="playList.js"></script>
+    <script src="main.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="../index.html">首頁</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#" style="margin-left: 30px;">Youtube 心情點唱機 <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../LOVE Question/index.html" style="margin-left: 30px;">問卷調查</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Simple RPG/index.html" style="margin-left: 30px;">RPG遊戲</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <br /><br /><br /><br />
+        <h1>Youtube 心情點唱機</h1>
+
+        <!--播放歌曲名稱-->
+        <h3></h3>
+
+        <div id="visi">
+            <!--youtube影片撥放器-->
+            <div id="player"></div>
+        </div>
+        <br><br>
+        <input id="playButton" type="button" value="Play">
+        <input type="button" value="Pause" onclick="stopVideo()">
+
+    </body>
+</html>
